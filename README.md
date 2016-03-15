@@ -1,2 +1,2 @@
 # pcDuino-gpio
-This the example for programming GPIO on pcDuino using C language.
+This is the example for programming GPIO on pcDuino using C language.
