@@ -8,7 +8,7 @@ When you use this I2C demo, you need mount [I/O expander shield for Arduino/pcDu
 ```
 sudo apt-get install libi2c-dev i2c-tools
 ```
-And use `i2cdetect` tool to check the I2C device: 
+And use `i2cdetect` tool to check the address of MCP23071 I2C chip：
 ```
 linaro@linaro-alip:~/pcDuino-gpio$ i2cdetect -y 2
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
