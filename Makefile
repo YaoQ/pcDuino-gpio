@@ -1,7 +1,11 @@
-gpio: gpio.o 
-	cc -o gpio gpio.o 
+all: gpio i2c
 
-gpio.o : gpio.c
-	cc -c gpio.c
+gpio: gpio.c
+	cc gpio.c -o gpio  
+
+i2c: i2c.c
+	cc i2c.c -o i2c 
+
 clean :
-	rm gpio gpio.o 
+	rm gpio 
+	rm i2c 
